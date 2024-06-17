@@ -1,0 +1,445 @@
+:root{
+    --very_dark_magenta: hsl(300, 43%, 22%);
+    --soft_pink: hsl(333, 80%, 67%);
+    --dark_grayish_magenta: hsl(303, 10%, 53%);
+    --light_grayish_magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --hover: hsl(303, 46%, 84%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'LeagueSpartan', sans-serif;
+}
+body{
+    padding: 4rem 6rem ;
+}
+.attribution {
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  .top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1;
+    width: 90%;
+    color: var(--very_dark_magenta);
+  }
+  h2{
+    margin-top: 1.5rem;
+    font-weight: 100;
+    font-size: 1.1rem;
+    color: var(--very_dark_magenta);
+    width: 80%;
+  }
+  .right_items{
+    /* width: 50%; */
+    padding-top: 2rem;
+    align-items: left;
+    justify-content: left;
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    gap: 1rem;
+    font-size: 0.8rem;
+    /* background-color: var(--very_dark_magenta); */
+  }
+  .right_items p{
+    /* display: inline-block; */
+  }
+  .star_capsule {
+    display: flex;
+    background-color: var(--light_grayish_magenta);
+    gap: 2rem;
+    align-items: center;    
+    /* border: 2px dashed red; */
+    padding: 1.5rem;
+    color: var(--very_dark_magenta);
+    font-weight: 900;
+    border-radius: 1rem;
+  }
+  img{
+    width: 15px;
+    height: 15px;
+    /* display: inline-block; */
+  }
+  #star1{
+    width: 25rem;
+    height: 1rem;
+  }
+  #star2{
+    margin-left: 3rem;
+    width: 25rem;
+    height: 1rem;
+}
+#star3{
+    margin-left: 6rem;
+    width: 25rem;
+}
+.star{
+    display: flex;
+    gap: 0.8rem;
+}
+.star_capsule:hover{
+    background-color: var(--hover);
+    cursor: pointer;
+}
+.testimony:hover{
+    box-shadow:2px ;
+    cursor: pointer;
+}
+.bottom{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 2rem;
+
+}
+.testimony{
+    background-color: var(--very_dark_magenta);
+    color: var(--white);
+    height: 10rem;
+    padding: 1.8rem;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    display: inline-block;
+}
+.words{
+    text-align: left;
+    /* width: 81%; */
+    height: 80%;
+    margin-top: 1rem;
+    font-weight: 550;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.verify{
+    font-weight: 900;
+    color: var(--soft_pink);
+}
+#colton img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+#irene{
+    margin-top: 1rem;
+}
+#anne{
+    margin-top: 2rem;
+}
+#colton img, #irene img,#anne img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+
+}
+
+@media (min-width: 1920px) {
+    body{
+        padding: 4rem 6rem ;
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 6rem;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 1;
+        width: 70%;
+        color: var(--very_dark_magenta);
+      }
+      h2{
+        margin-top: 4rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: var(--very_dark_magenta);
+        width: 70%;
+      }
+      .right_items{
+        /* width: 50%; */
+        padding-top: 5rem;
+        align-items: left;
+        justify-content: left;
+        display: grid;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        /* background-color: var(--very_dark_magenta); */
+      }
+      .right_items p{
+        /* display: inline-block; */
+      }
+      .star_capsule {
+        display: flex;
+        background-color: var(--light_grayish_magenta);
+        gap: 1.5rem;
+        /* align-items: center;     */
+        /* border: 2px dashed red; */
+        padding: 1.5rem;
+        color: var(--very_dark_magenta);
+        font-size: 1.1rem;
+        font-weight: 900;
+        border-radius: 1rem;
+      }
+      img{
+        width: 1.2rem;
+        height: 1.2rem;
+        display: inline-block;
+      }
+      #star1{
+        width: 30rem;
+        height: 0.8rem;
+      }
+      #star2{
+        margin-left: 3rem;
+        width: 30rem;
+        height: 0.8rem;
+    }
+    #star3{
+        margin-left: 6rem;
+        width: 30rem;
+        height: 0.8rem;
+    }
+    .star{
+        display: flex;
+        gap: 0.8rem;
+    } 
+    .testimony{
+        background-color: var(--very_dark_magenta);
+        color: var(--white);
+        height: 15rem;
+        padding: 1.8rem;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    .words{
+        text-align: left;
+        /* width: 81%; */
+        height: 80%;
+        margin-top: 2rem;
+        font-weight: 400;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid red; */
+    }
+    #colton img, #irene img,#anne img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+}
+.info{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+
+}
+.attribution {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+  }
+  .verify, .info{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media (max-width:376px) {
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+    .top{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom:1.5rem;
+}
+    .left_item{
+        /* border: 2px solid red; */
+
+}
+.right_items{
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  /* border: 2px solid green; */
+  /* border: 1px solid red; */
+}
+
+#star1, #star2, #star3{
+  margin: 0;
+  /* display: grid; */
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  height: 2rem;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* border: 2px solid red; */
+}
+.top{
+    /* border: 2px solid green; */
+}
+body{
+    padding: 1rem;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+#colton,#irene,#anne{
+  margin: 0;
+}
+#irene,#anne{
+  margin-top: 1rem;
+}
+
+}
+@media(max-width:500px){
+  *{
+      padding:0;
+      margin:0;
+      box-sizing: border-box;
+  }
+  .attribution {
+      font-size: 0.8rem;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 2rem;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+  body{
+      padding: 1rem;
+  }
+  .top{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 0.5fr;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      /* border: 1px solid red; */
+
+  }
+  .right_items{
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+      display: grid;
+      /* border: 2px solid green; */
+      /* border: 1px solid red; */
+  }
+
+  #star1, #star2, #star3{
+      margin: 0;
+      /* display: grid; */
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      width: 100%;
+      height: 2rem;
+      /* border: 1px solid red; */
+      align-items: center;
+      justify-content: center;
+  }
+  h1{
+      text-align: center;
+      font-size: 2.8rem;
+      width: 100%;
+      /* border: 2px solid yellow; */
+  }
+  h2{
+      font-size: 1.2rem;
+      font-weight: 350;
+      text-align: center;
+      width: 100%;
+      margin-top: 1.1rem;
+  }
+  .left_item{
+      display: block;
+      /* color: green; */
+      /* border: 2px solid green; */
+      padding: 0.5rem;
+  }
+  .bottom{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.1fr 0.1fr 0.1fr;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      gap: 0rem;
+  }
+  .testimony{
+      height: 16rem;
+      padding: 1.5rem;
+  }
+  .words{
+      margin-top: 1rem;
+      line-height: 1.5rem;
+  }
+  .info{
+      margin-top: 1.5rem;
+  }
+  #colton,#irene,#anne{
+      margin: 0;
+  }
+  #irene,#anne{
+      margin-top: 1rem;
+  }
+}
+
